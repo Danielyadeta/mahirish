@@ -27,8 +27,8 @@ static int checkConcatenatedSum(int n, int catlen){
 3# M-N Array
 static in issequencedArray(int a[], int m, int n)
 {
-if(a[0]!=m || a[i.length-1]!=n) return 0;
-for(i=0; i<i.length-1;i++)
+if(a[0]!=m || a[a.length-1]!=n) return 0;
+for(i=0; i<a.length-1;i++)
 {
 if(a[i+1]-a[i]!=0 && a[i+1]-a[i]!=1) return 0;
 }
